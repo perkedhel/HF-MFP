@@ -41,7 +41,7 @@ Questo progetto fornisce un Dockerfile ottimizzato per deployare MediaFlow Proxy
    - Scorri verso il basso fino alla sezione **"Variables and secrets"**
 
 3. **Aggiungi le Variabili**
-   - Clicca su **"New variable"** per aggiungere ogni variabile
+   - Clicca su **"New secret"** per aggiungere ogni variabile
    - Inserisci nome e valore come specificato sotto
    - Clicca **"Save"** per ogni variabile
 
@@ -62,7 +62,7 @@ Se utilizzi l'addon MammaMia, aggiungi anche:
 TRANSPORT_ROUTES
 ```
 
-Ecco come dovrebbero apparire le tue variabili nelle Settings di HuggingFace:
+Ecco come dovrebbero apparire le tue variabili nelle Settings SECRET di HuggingFace:
 
 | Nome Variabile | Valore | Descrizione |
 |---|---|---|
